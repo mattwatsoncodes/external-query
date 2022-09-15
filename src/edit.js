@@ -13,7 +13,6 @@ export default function Edit( { attributes: { endpoint }, setAttributes } ) {
 		template: [
 			[ 'external-template/external-template' ]
 		],
-		templateLock: "all"
 	} );
 
 	/**
