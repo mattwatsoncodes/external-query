@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "external-query/external-query",
+	"version": "0.1.0",
+	"title": "External Query",
+	"category": "theme",
+	"icon": "image-rotate",
+	"description": "Proof of Concept block for creating a query loop from an external source.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"endpoint": {
+			"type": "string"
+		}
+	},
+	"textdomain": "external-query",
+	"editorScript": "file:./index.js",
+	"providesContext": {
+		"endpoint": "endpoint"
+	}
+}
